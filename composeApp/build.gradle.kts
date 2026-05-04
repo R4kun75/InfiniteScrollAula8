@@ -41,7 +41,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
             val ktorVersion = "2.3.10" // Versão estável do Ktor
-
+            implementation("org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
             // Cliente base do Ktor
             implementation("io.ktor:ktor-client-core:$ktorVersion")
 
